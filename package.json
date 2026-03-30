@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "prebuild": "bash prebuild.sh",
+    "build": "bash prebuild.sh && astro build",
     "preview": "astro preview"
   },
   "dependencies": {
