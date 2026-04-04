@@ -1,7 +1,6 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
-import path from 'node:path';
 
 export default defineConfig({
   site: 'https://n8nguide.com',
@@ -13,7 +12,8 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        'blog.config': path.resolve('./blog.config.ts'),
+        '../../blog.config.ts': new URL('./blog.config.ts', import.meta.url).pathname,
+        '../../../blog.config.ts': new URL('./blog.config.ts', import.meta.url).pathname,
       }
     }
   }
