@@ -2,6 +2,7 @@ import type { BlogConfig } from './template/blog.config.ts';
 
 const config: BlogConfig = {
   name: "n8nGuide.com",
+  homeTitle: "n8n Tutorials, Workflow Templates & Automation Guides | n8nGuide.com",
   description: "n8n tutorials, workflows, templates, and automation guides",
   site: "https://n8nguide.com",
   language: "en",

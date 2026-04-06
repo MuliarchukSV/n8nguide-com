@@ -1,11 +1,10 @@
 # n8nGuide.com
 
-> n8n tutorials, workflows, templates, and automation guides
+> n8n tutorials, workflows, templates, and automation guides — practical resources for n8n users from beginner setup to advanced orchestration patterns.
 
 n8nGuide.com is an independent resource for n8n workflow automation. We publish tutorials, workflow templates, comparison guides, and best practices for n8n users of all levels.
 
-## Topics
-
+## Content Focus
 - n8n installation and self-hosting
 - Workflow templates and automation recipes
 - Webhook configurations and API integrations
@@ -13,8 +12,16 @@ n8nGuide.com is an independent resource for n8n workflow automation. We publish 
 - Advanced n8n patterns: error handling, sub-workflows, credentials management
 - n8n with AI: Claude, OpenAI, and LLM integrations
 
+## Key Articles
+- [What is n8n? Complete Beginner Guide](https://n8nguide.com/blog/what-is-n8n/): Introduction to n8n workflow automation
+- [n8n Self-Hosting Guide](https://n8nguide.com/blog/n8n-self-hosting/): Deploy n8n on your own server
+- [n8n AI Agent Workflows](https://n8nguide.com/blog/n8n-ai-agents/): Building AI-powered automations with n8n
+- [n8n Error Handling Best Practices](https://n8nguide.com/blog/n8n-error-handling/): Production-grade workflow reliability
+
 ## About
-
 Operated by FlipFactory Editorial Team using the FlipPress content pipeline.
+Learn more: https://n8nguide.com/editorial-process
 
-Site: https://n8nguide.com
+## Publisher
+Website: https://n8nguide.com
+Publisher: https://flipfactory.it.com
