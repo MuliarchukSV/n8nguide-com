@@ -3,7 +3,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://n8nguide.com',
+  site: 'https://n8nknowledge.com',
   srcDir: './template/src',
   integrations: [tailwind(), sitemap()],
   markdown: {
