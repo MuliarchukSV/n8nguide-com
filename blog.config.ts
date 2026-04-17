@@ -9,6 +9,14 @@ const config: BlogConfig = {
   niche: "n8n tutorials, workflows, templates",
   colors: { primary: "#ff6d5a", accent: "#1a1a2e" },
   analytics: { plausibleDomain: "n8nknowledge.com" },
+  author: {
+    name: 'Sergii Muliarchuk',
+    url: 'https://flipfactory.it.com',
+    sameAs: [
+      'https://www.linkedin.com/in/sergii-muliarchuk/',
+      'https://github.com/MuliarchukSV',
+    ],
+  },
 };
 
 export default config;
