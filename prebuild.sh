@@ -1,4 +1,9 @@
 #!/bin/bash
+# Force submodule sync first — Cloudflare Pages may cache stale checkout otherwise.
+# Without this, template/ keeps old SHA even after superproject pointer bump.
+git submodule sync --recursive 2>/dev/null || true
+git submodule update --init --recursive --force 2>/dev/null || true
+
 if [ -d "src/content/blog" ]; then
   cp -r src/content/blog/* template/src/content/blog/ 2>/dev/null || true
 fi
